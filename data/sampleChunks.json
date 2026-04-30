@@ -1,0 +1,122 @@
+[
+  {
+    "id": "bio-1",
+    "text": "I'm Naman Agarwal, a Computer Engineering student pursuing B.Tech (Honours in Data Science & Analytics) at KJ Somaiya School of Engineering, Mumbai. I graduate in June 2027. I build scalable, production-ready full-stack web applications and integrate AI/LLM APIs into real-world systems.",
+    "source": "resume",
+    "type": "bio"
+  },
+  {
+    "id": "bio-2",
+    "text": "I'm seeking a software engineering internship to build impactful products at scale. I have hands-on experience with React.js, Next.js, TypeScript, and Node.js, and I've integrated AI/LLM APIs like OpenAI, Claude, Gemini, and Groq into production applications. I'm a rapid prototyper who loves going from idea to deployed product fast.",
+    "source": "resume",
+    "type": "bio"
+  },
+  {
+    "id": "experience-1",
+    "text": "I interned as a Web Development Intern at Prodigy Infotech (June–August 2025, remote). I built and deployed responsive web applications using HTML5, CSS3, and JavaScript with cross-browser compatibility. I engineered modular, reusable component libraries that improved dev efficiency and reduced code duplication. I applied front-end optimization techniques like lazy loading and asset compression to boost page performance.",
+    "source": "resume",
+    "type": "experience"
+  },
+  {
+    "id": "project-nyayaflow",
+    "text": "Nyaya-Flow is my AI Legal Analysis Platform (live at https://nyaya-ai-lilac.vercel.app/). Built with Next.js, TypeScript, Supabase, Groq AI, Tailwind CSS, and deployed on Vercel. It's a full-stack AI-powered platform for legal document analysis, case management, and automated legal drafting. I integrated Groq LLM for real-time AI chat, document analysis, and legal document generation. Features Supabase Auth (OAuth + email), PDF parsing, REST APIs, and protected routing via middleware. The UI uses Framer Motion animations with dark/light theme support.",
+    "source": "projects",
+    "type": "project"
+  },
+  {
+    "id": "project-spendify",
+    "text": "Spendify is my AI-Powered Expense Tracker (live at https://spendify-two.vercel.app/). Built with React.js, Node.js, Express.js, Supabase, Chart.js, and JWT auth, deployed on Vercel. It's a full-stack expense tracking platform supporting 100+ concurrent users with real-time data sync. I built secure REST APIs with JWT authentication, real-time analytics dashboards, multilingual support (English/Hindi), and optimized database queries reducing response time by 40%. Chart.js powers interactive financial insights visualization.",
+    "source": "projects",
+    "type": "project"
+  },
+  {
+    "id": "project-portfolio",
+    "text": "This portfolio website is one of my projects — an immersive 3D experience with a conversational AI digital twin. Built with Next.js 14, React Three Fiber, Three.js, Tone.js, and Groq API. It showcases my full-stack and creative coding abilities with a floating island of interconnected skill nodes, ambient music, and a RAG-powered chatbot.",
+    "source": "projects",
+    "type": "project"
+  },
+  {
+    "id": "skill-languages",
+    "text": "My programming languages include JavaScript, TypeScript, Python, Java, C++, HTML5, and CSS3. TypeScript and JavaScript are my strongest — I use them daily for both frontend and backend development.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "skill-frontend",
+    "text": "For frontend, I work with React.js, Next.js, Tailwind CSS, Three.js, and Framer Motion. I build responsive, performant UIs with great user experience and smooth animations. I've worked with server components, dynamic imports, and View Transitions API.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "skill-backend",
+    "text": "On the backend, I use Node.js, Express.js, and REST APIs. I've built secure authentication systems with JWT, integrated third-party services, and designed APIs that handle 100+ concurrent users with optimized database queries.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "skill-databases",
+    "text": "I have experience with MongoDB, PostgreSQL, MySQL, and Supabase. I've optimized database queries to reduce response times by 40% and implemented real-time data sync using Supabase's realtime features.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "skill-ai",
+    "text": "I integrate AI/ML into my applications using LLM APIs from OpenAI, Claude, Gemini, and Groq. I'm skilled in prompt engineering and have built AI-powered features like real-time chat, document analysis, and automated legal document generation in production apps.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "skill-tools",
+    "text": "My development tools include Git, GitHub, Vercel, VS Code, and Postman. I deploy projects on Vercel with CI/CD pipelines and use Git for version control. I'm comfortable with the full development and deployment lifecycle.",
+    "source": "skills",
+    "type": "skill"
+  },
+  {
+    "id": "education-1",
+    "text": "I'm pursuing B.Tech in Computer Engineering with Honours in Data Science & Analytics at KJ Somaiya School of Engineering, Mumbai (2023–2027). The data science specialization gives me a strong foundation in analytics and machine learning alongside core CS fundamentals.",
+    "source": "education",
+    "type": "education"
+  },
+  {
+    "id": "achievement-1",
+    "text": "I led a 5-member team across multiple full-stack development projects, consistently delivering features on schedule with high code quality. I'm an active member of the Vision AR/VR Club at KJ Somaiya, contributing to technical events and content creation.",
+    "source": "achievements",
+    "type": "achievement"
+  },
+  {
+    "id": "achievement-2",
+    "text": "I've independently built and deployed 2+ production-grade full-stack applications serving real users — handling everything from UI design to backend architecture and cloud deployment on Vercel.",
+    "source": "achievements",
+    "type": "achievement"
+  },
+  {
+    "id": "philosophy-1",
+    "text": "I believe in building things that actually work and solve real problems. I'm a rapid prototyper — I love going from idea to deployed product as fast as possible. I care about clean code, but I care more about shipping and iterating based on real feedback.",
+    "source": "philosophy",
+    "type": "philosophy"
+  },
+  {
+    "id": "philosophy-2",
+    "text": "I approach development with a full-stack mindset — I enjoy working across the entire stack from database design to pixel-perfect UI. The best engineers understand the complete picture, not just their slice.",
+    "source": "philosophy",
+    "type": "philosophy"
+  },
+  {
+    "id": "philosophy-3",
+    "text": "I'm a strong believer in continuous learning. As a student, I constantly explore new technologies, build side projects, and push myself to integrate cutting-edge tools like LLMs into practical, real-world applications.",
+    "source": "philosophy",
+    "type": "philosophy"
+  },
+  {
+    "id": "personal-1",
+    "text": "I'm an active member of the Vision AR/VR Club at KJ Somaiya, where I explore immersive tech and contribute to technical events. I'm also interested in creative coding, 3D web experiences, and building things that look and feel impressive.",
+    "source": "personal",
+    "type": "personal"
+  },
+  {
+    "id": "contact-1",
+    "text": "You can reach me at agarwalnaman3010@gmail.com or call +91-8450917648. Connect with me on LinkedIn and GitHub. I'm always open to internship opportunities, collaboration, and conversations about tech.",
+    "source": "contact",
+    "type": "contact"
+  }
+]

@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a1a;
+  --bg-secondary: #111133;
+  --text-primary: #e0e0ff;
+  --text-secondary: #8888bb;
+  --glow: #00f0ff;
+  --accent: #ff6b35;
+  /* Visitor-type adaptive properties */
+  --detail-level: 1;
+  --show-technical: 1;
+  --show-leadership: 0;
+}
+
+[data-visitor="recruiter"] {
+  --show-technical: 0;
+  --show-leadership: 1;
+}
+[data-visitor="engineer"] {
+  --show-technical: 1;
+  --show-leadership: 0;
+  --detail-level: 2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* View Transition API */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.4s;
+}
+
+::view-transition-old(root) {
+  animation: fade-out 0.4s ease-in;
+}
+::view-transition-new(root) {
+  animation: fade-in 0.4s ease-out;
+}
+
+@keyframes fade-out {
+  from { opacity: 1; transform: scale(1); }
+  to { opacity: 0; transform: scale(0.95); }
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: scale(1.05); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--glow); border-radius: 3px; }
+
+/* Chat cursor animation */
+.typing-cursor::after {
+  content: '▌';
+  animation: cursorBlink 1s step-end infinite;
+}
+
+@keyframes cursorBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Glass morphism utility */
+.glass {
+  background: rgba(10, 10, 26, 0.7);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 240, 255, 0.15);
+}
+
+/* Loading bar animation */
+.loading-bar {
+  background: linear-gradient(90deg, transparent, var(--glow), transparent);
+  animation: loading-slide 1.5s ease-in-out infinite;
+}
+@keyframes loading-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
