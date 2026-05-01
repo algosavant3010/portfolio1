@@ -11,11 +11,6 @@ const withPWA = withPWAInit({
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config, { isServer }) => {
-    // Support Web Workers
-    config.module.rules.push({
-      test: /\.worker\.ts$/,
-      use: { loader: 'worker-loader', options: { inline: 'fallback' } },
-    });
     // Exclude onnxruntime from server bundle
     if (isServer) {
       config.externals.push('onnxruntime-node');
